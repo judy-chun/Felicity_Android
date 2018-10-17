@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:padding="10dp"
+android:background="@drawable/gradient_back"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ThoughtDescription">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Headers"
+            android:text="Did you experience any negative thoughts or emotions today?"/>
+
+        <RadioGroup
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_back"
+                android:fontFamily="casual"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_back"
+                android:fontFamily="casual"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:visibility="invisible"
+            style="@style/Headers"
+            android:text="Describe the surrounding situation that resulted in the negative emotions and/or thoughts"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/textView3"
+            android:visibility="invisible"
+            style="@style/TextBox" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/right"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="16"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

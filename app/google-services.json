@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "961359328033",
+    "firebase_url": "https://feelicity-3b11d.firebaseio.com",
+    "project_id": "feelicity-3b11d",
+    "storage_bucket": "feelicity-3b11d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961359328033:android:1402cdcaf1d78299",
+        "android_client_info": {
+          "package_name": "com.example.tyco9.feelicity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961359328033-jf069e3v4ntdl067g32eupdjugqh090c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tyco9.feelicity",
+            "certificate_hash": "c437e715b03afeb8c0fa6cc8249d294fa8b57dae"
+          }
+        },
+        {
+          "client_id": "961359328033-jhlaa6pl6gdh2trrn2vjpgm8sfn8fekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9o7Y8xWZlCMUCieGhQQ9zT_aUC3l74FY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961359328033-jhlaa6pl6gdh2trrn2vjpgm8sfn8fekh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961359328033-2ajpc2405b6mrcg5m9ufu8tlsk4ek2pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Feelicity.Feelicity"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961359328033:android:3fa2b24b03567797",
+        "android_client_info": {
+          "package_name": "dev.felicity.felicity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961359328033-ooa5cbd8735mciaanfpsnihqhh8vcokb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.felicity.felicity",
+            "certificate_hash": "c437e715b03afeb8c0fa6cc8249d294fa8b57dae"
+          }
+        },
+        {
+          "client_id": "961359328033-jhlaa6pl6gdh2trrn2vjpgm8sfn8fekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9o7Y8xWZlCMUCieGhQQ9zT_aUC3l74FY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961359328033-jhlaa6pl6gdh2trrn2vjpgm8sfn8fekh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961359328033-2ajpc2405b6mrcg5m9ufu8tlsk4ek2pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Feelicity.Feelicity"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

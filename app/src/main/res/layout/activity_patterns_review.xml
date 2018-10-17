@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_back"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/Headers"
+                android:layout_marginBottom="0dp"
+                android:text="You have selected" />
+
+            <TextView
+                android:id="@+id/text"
+                style="@style/Headers"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/button_back" />
+
+            <TextView
+                style="@style/Headers"
+                android:layout_marginBottom="0dp"
+                android:text="as your problematic pattern(s) of behavior" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:srcCompat="@drawable/perspective" />
+
+            <TextView
+                style="@style/Headers"
+                android:text="Remember to consider the bigger picture and not jump to conclusions"
+                android:textStyle="bold" />
+
+
+            <TextView
+                style="@style/Headers"
+                android:text="There are different ways to interpret the same situation. Before coming to a conclusion consider both the pros and cons"
+                android:textColor="#262626" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_back2"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:text="Finish" />
+
+        <!--<Button
+            android:id="@+id/res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_back2"
+            android:text="Resources"
+            android:textColor="@color/white" /> -->
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="100"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

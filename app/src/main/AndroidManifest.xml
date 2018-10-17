@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.felicity.felicity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".LandingPage" />
+        <activity android:name=".CbtIntro" />
+        <activity android:name=".CbtChart" />
+        <activity android:name=".SituationDescription" />
+        <activity android:name=".ThoughtDescription" />
+        <activity android:name=".ThoughtSituation" />
+        <activity android:name=".ThoughtMeaning" />
+        <activity android:name=".FeelingSelection" />
+        <activity android:name=".FeelingPercentage" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".AffectInfluence" />
+        <activity android:name=".CopingMechanisms" />
+        <activity android:name=".AvoidanceAssessment" />
+        <activity android:name=".AlternativeOptions" />
+        <activity android:name=".ChallengingThought" />
+        <activity android:name=".ThoughtExclusion" />
+        <activity android:name=".ProblematicPatterns" />
+        <activity android:name=".FactOrOpinion" />
+        <activity android:name=".AlternativeInterpretations" />
+        <activity android:name=".ThoughtComparison" />
+        <activity android:name=".AlternativePerspective" />
+        <activity android:name=".FeelingSelectionReview" />
+        <activity android:name=".FeelingPercentageReview" />
+        <activity android:name=".MaintainingProgress" />
+        <activity android:name=".FeelingReview" />
+        <activity android:name=".PatternsReview"></activity>
+    </application>
+
+</manifest>

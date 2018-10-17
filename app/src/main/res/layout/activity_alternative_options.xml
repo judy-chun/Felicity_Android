@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_back"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/Headers"
+            android:text="Imagine alternative thoughts or actions you could have taken"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/Headers"
+                    android:layout_width="match_parent"
+                    android:text="Thought/ Action" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit1"
+                    style="@style/TextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:windowSoftInputMode="stateHidden" />
+
+                <TextView
+                    style="@style/Headers"
+                    android:layout_width="match_parent"
+                    android:text="Effect" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit2"
+                    style="@style/TextBox"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Buttons"
+            android:background="@drawable/button_back2"
+            android:text="Add another situation" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/right"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="52"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
